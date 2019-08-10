@@ -88,20 +88,12 @@ function replace {
 }
 
 replace "PRODUCTNAME" "{{ cookiecutter.project_name | replace(' ', '') }}"
-replace "ORGANIZATION" "{{ cookiecutter.company_name }}"
-replace "LEADDEVELOPER" "{{ cookiecutter.lead_dev }}"
-replace "APPLEID" "{{ cookiecutter.apple_id }}"
-replace "com.raizlabs.PRODUCTNAME" "{{ cookiecutter.bundle_identifier }}"
-replace "THISYEAR" "{% now 'utc', '%Y' %}"
-replace "TODAYSDATE" "{% now 'utc', '%D' %}"
+replace "com.PRODUCTNAME" "{{ cookiecutter.bundle_identifier }}"
 
 if [ "${SKIP_REGENERATION}" == "true" ] ; then
     echo "Dry run complete."
 else
     # Delete files that we don't want to include in the template
-    rm -rf "${EXPANDED}/app/Podfile.lock"
-    rm -rf "${EXPANDED}/app/Pods"
-    rm -rf "${EXPANDED}/app/${EXPANDED}.xcworkspace"
     rm -rf "${EXPANDED}/app/build"
     rm -rf "${EXPANDED}/app/fastlane/build"
     rm -rf "${EXPANDED}/app/fastlane/screenshots"
@@ -121,8 +113,7 @@ else
 
     pushd "$TEST_OUTPUT_DIR/app"
         bundle install
-        bundle exec pod install
-        bundle exec fastlane test
+        echo "Add here test command"
     popd
 fi
 
