@@ -1,3 +1,5 @@
 {
-    "project_name": "Project Test"
+    "project_name": "Project Test",
+    "display_name": "Project Test",
+    "bundle_identifier": "com.{{ cookiecutter.display_name | replace(' ', '') | lower }}"
 }

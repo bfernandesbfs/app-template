@@ -88,6 +88,7 @@ function replace {
 }
 
 replace "PRODUCTNAME" "{{ cookiecutter.project_name | replace(' ', '') }}"
+replace "DISPLAYNAME" "{{ cookiecutter.display_name }}"
 replace "com.PRODUCTNAME" "{{ cookiecutter.bundle_identifier }}"
 
 if [ "${SKIP_REGENERATION}" == "true" ] ; then
