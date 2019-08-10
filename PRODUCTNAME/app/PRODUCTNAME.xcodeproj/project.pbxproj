@@ -11,7 +11,7 @@
 		153AFBB022FF063F00B1C147 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153AFBAF22FF063F00B1C147 /* ViewController.swift */; };
 		153AFBB522FF064000B1C147 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153AFBB422FF064000B1C147 /* Assets.xcassets */; };
 		153AFBB822FF064000B1C147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153AFBB622FF064000B1C147 /* LaunchScreen.storyboard */; };
-		153AFBC322FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153AFBC222FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.swift */; };
+		153AFBC322FF064000B1C147 /* PRODUCTNAMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153AFBC222FF064000B1C147 /* PRODUCTNAMETests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,19 +20,19 @@
 			containerPortal = 153AFBA222FF063F00B1C147 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 153AFBA922FF063F00B1C147;
-			remoteInfo = {{ cookiecutter.project_name | replace(' ', '') }};
+			remoteInfo = PRODUCTNAME;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		153AFBAA22FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = {{ cookiecutter.project_name | replace(' ', '') }}.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		153AFBAA22FF063F00B1C147 /* PRODUCTNAME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PRODUCTNAME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		153AFBAD22FF063F00B1C147 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		153AFBAF22FF063F00B1C147 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		153AFBB422FF064000B1C147 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		153AFBB722FF064000B1C147 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		153AFBB922FF064000B1C147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		153AFBBE22FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = {{ cookiecutter.project_name | replace(' ', '') }}Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		153AFBC222FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = {{ cookiecutter.project_name | replace(' ', '') }}Tests.swift; sourceTree = "<group>"; };
+		153AFBBE22FF064000B1C147 /* PRODUCTNAMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRODUCTNAMETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153AFBC222FF064000B1C147 /* PRODUCTNAMETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRODUCTNAMETests.swift; sourceTree = "<group>"; };
 		153AFBC422FF064000B1C147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,8 +57,8 @@
 		153AFBA122FF063F00B1C147 = {
 			isa = PBXGroup;
 			children = (
-				153AFBAC22FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }} */,
-				153AFBC122FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests */,
+				153AFBAC22FF063F00B1C147 /* PRODUCTNAME */,
+				153AFBC122FF064000B1C147 /* PRODUCTNAMETests */,
 				153AFBAB22FF063F00B1C147 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,29 +66,29 @@
 		153AFBAB22FF063F00B1C147 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				153AFBAA22FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}.app */,
-				153AFBBE22FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.xctest */,
+				153AFBAA22FF063F00B1C147 /* PRODUCTNAME.app */,
+				153AFBBE22FF064000B1C147 /* PRODUCTNAMETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		153AFBAC22FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }} */ = {
+		153AFBAC22FF063F00B1C147 /* PRODUCTNAME */ = {
 			isa = PBXGroup;
 			children = (
 				153AFBAD22FF063F00B1C147 /* AppDelegate.swift */,
 				153AFBAF22FF063F00B1C147 /* ViewController.swift */,
 				153AFBCD22FF068A00B1C147 /* Resource */,
 			);
-			path = {{ cookiecutter.project_name | replace(' ', '') }};
+			path = PRODUCTNAME;
 			sourceTree = "<group>";
 		};
-		153AFBC122FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests */ = {
+		153AFBC122FF064000B1C147 /* PRODUCTNAMETests */ = {
 			isa = PBXGroup;
 			children = (
-				153AFBC222FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.swift */,
+				153AFBC222FF064000B1C147 /* PRODUCTNAMETests.swift */,
 				153AFBC422FF064000B1C147 /* Info.plist */,
 			);
-			path = {{ cookiecutter.project_name | replace(' ', '') }}Tests;
+			path = PRODUCTNAMETests;
 			sourceTree = "<group>";
 		};
 		153AFBCD22FF068A00B1C147 /* Resource */ = {
@@ -104,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		153AFBA922FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }} */ = {
+		153AFBA922FF063F00B1C147 /* PRODUCTNAME */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 153AFBC722FF064000B1C147 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name | replace(' ', '') }}" */;
+			buildConfigurationList = 153AFBC722FF064000B1C147 /* Build configuration list for PBXNativeTarget "PRODUCTNAME" */;
 			buildPhases = (
 				153AFBA622FF063F00B1C147 /* Sources */,
 				153AFBA722FF063F00B1C147 /* Frameworks */,
@@ -116,14 +116,14 @@
 			);
 			dependencies = (
 			);
-			name = {{ cookiecutter.project_name | replace(' ', '') }};
-			productName = {{ cookiecutter.project_name | replace(' ', '') }};
-			productReference = 153AFBAA22FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}.app */;
+			name = PRODUCTNAME;
+			productName = PRODUCTNAME;
+			productReference = 153AFBAA22FF063F00B1C147 /* PRODUCTNAME.app */;
 			productType = "com.apple.product-type.application";
 		};
-		153AFBBD22FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests */ = {
+		153AFBBD22FF064000B1C147 /* PRODUCTNAMETests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 153AFBCA22FF064000B1C147 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name | replace(' ', '') }}Tests" */;
+			buildConfigurationList = 153AFBCA22FF064000B1C147 /* Build configuration list for PBXNativeTarget "PRODUCTNAMETests" */;
 			buildPhases = (
 				153AFBBA22FF064000B1C147 /* Sources */,
 				153AFBBB22FF064000B1C147 /* Frameworks */,
@@ -134,9 +134,9 @@
 			dependencies = (
 				153AFBC022FF064000B1C147 /* PBXTargetDependency */,
 			);
-			name = {{ cookiecutter.project_name | replace(' ', '') }}Tests;
-			productName = {{ cookiecutter.project_name | replace(' ', '') }}Tests;
-			productReference = 153AFBBE22FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.xctest */;
+			name = PRODUCTNAMETests;
+			productName = PRODUCTNAMETests;
+			productReference = 153AFBBE22FF064000B1C147 /* PRODUCTNAMETests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +147,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
-				{{ cookiecutter.company_name }}NAME = "Bruno Fernandes";
+				ORGANIZATIONNAME = "Bruno Fernandes";
 				TargetAttributes = {
 					153AFBA922FF063F00B1C147 = {
 						CreatedOnToolsVersion = 10.3;
@@ -158,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 153AFBA522FF063F00B1C147 /* Build configuration list for PBXProject "{{ cookiecutter.project_name | replace(' ', '') }}" */;
+			buildConfigurationList = 153AFBA522FF063F00B1C147 /* Build configuration list for PBXProject "PRODUCTNAME" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -171,8 +171,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				153AFBA922FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }} */,
-				153AFBBD22FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests */,
+				153AFBA922FF063F00B1C147 /* PRODUCTNAME */,
+				153AFBBD22FF064000B1C147 /* PRODUCTNAMETests */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				153AFBC322FF064000B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }}Tests.swift in Sources */,
+				153AFBC322FF064000B1C147 /* PRODUCTNAMETests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +219,7 @@
 /* Begin PBXTargetDependency section */
 		153AFBC022FF064000B1C147 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 153AFBA922FF063F00B1C147 /* {{ cookiecutter.project_name | replace(' ', '') }} */;
+			target = 153AFBA922FF063F00B1C147 /* PRODUCTNAME */;
 			targetProxy = 153AFBBF22FF064000B1C147 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,12 +358,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/{{ cookiecutter.project_name | replace(' ', '') }}/Resource/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/PRODUCTNAME/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.{{ cookiecutter.project_name | replace(' ', '') }}.sandbox;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PRODUCTNAME.sandbox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -377,12 +377,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "$(SRCROOT)/{{ cookiecutter.project_name | replace(' ', '') }}/Resource/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/PRODUCTNAME/Resource/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.{{ cookiecutter.project_name | replace(' ', '') }};
+				PRODUCT_BUNDLE_IDENTIFIER = com.PRODUCTNAME;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -396,17 +396,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = {{ cookiecutter.project_name | replace(' ', '') }}Tests/Info.plist;
+				INFOPLIST_FILE = PRODUCTNAMETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.{{ cookiecutter.project_name | replace(' ', '') }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PRODUCTNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.project_name | replace(' ', '') }}.app/{{ cookiecutter.project_name | replace(' ', '') }}";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRODUCTNAME.app/PRODUCTNAME";
 			};
 			name = Debug;
 		};
@@ -416,24 +416,24 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = {{ cookiecutter.project_name | replace(' ', '') }}Tests/Info.plist;
+				INFOPLIST_FILE = PRODUCTNAMETests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.{{ cookiecutter.project_name | replace(' ', '') }}Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PRODUCTNAMETests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/{{ cookiecutter.project_name | replace(' ', '') }}.app/{{ cookiecutter.project_name | replace(' ', '') }}";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PRODUCTNAME.app/PRODUCTNAME";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		153AFBA522FF063F00B1C147 /* Build configuration list for PBXProject "{{ cookiecutter.project_name | replace(' ', '') }}" */ = {
+		153AFBA522FF063F00B1C147 /* Build configuration list for PBXProject "PRODUCTNAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				153AFBC522FF064000B1C147 /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		153AFBC722FF064000B1C147 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name | replace(' ', '') }}" */ = {
+		153AFBC722FF064000B1C147 /* Build configuration list for PBXNativeTarget "PRODUCTNAME" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				153AFBC822FF064000B1C147 /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		153AFBCA22FF064000B1C147 /* Build configuration list for PBXNativeTarget "{{ cookiecutter.project_name | replace(' ', '') }}Tests" */ = {
+		153AFBCA22FF064000B1C147 /* Build configuration list for PBXNativeTarget "PRODUCTNAMETests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				153AFBCB22FF064000B1C147 /* Debug */,
