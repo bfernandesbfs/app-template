@@ -89,7 +89,7 @@ function replace {
 
 replace "PRODUCTNAME" "{{ cookiecutter.project_name | replace(' ', '') }}"
 replace "DISPLAYNAME" "{{ cookiecutter.display_name }}"
-replace "com.PRODUCTNAME" "{{ cookiecutter.bundle_identifier }}"
+replace "com.identifier" "{{ cookiecutter.bundle_identifier }}"
 
 if [ "${SKIP_REGENERATION}" == "true" ] ; then
     echo "Dry run complete."
